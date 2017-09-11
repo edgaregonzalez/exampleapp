@@ -4,8 +4,8 @@
 function Connect()
 {
  $dbhost = "db";
- $dbuser = "userapp";
- $dbpass = "password";
+ $dbuser = "root";
+ $dbpass = "superpassword";
  $dbname = "mensajesdb";
 
  // Crear una conexion
