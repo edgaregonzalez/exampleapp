@@ -3,10 +3,10 @@
 
 function Connect()
 {
- $dbhost = "db";
- $dbuser = "userapp";
- $dbpass = "password";
- $dbname = "mensajesdb";
+ $dbhost = "";
+ $dbuser = "";
+ $dbpass = "";
+ $dbname = "";
 
  // Crear una conexion
  $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname) or die($conn->connect_error);
